@@ -1,0 +1,174 @@
+body{
+	background-color: #eee;
+}
+
+.main-container{
+	margin-top: 30px;
+}
+
+.profile-picture{
+    background-image: url(http://imagizer.imageshack.us/v2/800x600q90/922/K8qpHF.jpg);
+    border-radius: 100px;
+    background-size: cover;
+}
+
+.nav-profile-picture{
+	width: 24px;
+    height: 24px;
+    background-color: black;
+    margin-right: 3px;
+}
+
+.nav-dweet{
+	margin-left: 10px;
+}
+
+.dwit-card{
+	background-color: #fff;
+	position: relative;
+}
+
+.account-detail-card__image{
+    background-image: url(http://imagizer.imageshack.us/v2/800x600q90/923/ZkeBju.jpg);
+    height: 100px;
+    width: 100%;
+    background-size: cover;
+}
+
+.account-detail-card__meta{
+	height: 60px;
+    padding: 60px 66px 0 20px
+}
+
+.account-detail-card__meta a{
+	text-decoration: none;
+	color: #007bff;
+}
+
+.account-detail-card__meta-text-title{
+	font-weight: bold;
+    color: grey;
+}
+
+a:hover .account-detail-card__meta-text-title {
+    /* text-decoration: dashed; */
+    /* color: #223; */
+    transition: color 1s;
+    color: #007bff;
+}
+
+.account-detail-card__meta-text-value{
+	font-weight: 500;
+}
+
+.account-detail-card__profile-picture{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    border-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.account-detail-card__profile-name{
+    position: absolute;
+    top: 100px;
+    left: 110px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.account-detail-card__profile-name-link{
+	color: black;
+}
+
+.account-detail-card__profile-username{
+    position: absolute;
+    top: 123px;
+    left: 110px;
+    font-size: 14px;
+}
+
+.account-detail-card__profile-username-link{
+	color:grey;
+}
+
+
+
+.new-dweet{
+    background-color: #EBF4FB;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.new-dweet__form{
+    margin: 0 4px 0 40px;
+}
+
+.new-dweet__input-text{
+	width: 100%;
+}
+
+.new-dweet__profile-picture{
+	width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 14px;
+    left: 42px;
+}
+
+a.latest-dweet-link:hover {
+    text-decoration: none;
+}
+
+.latest-dweet{
+    background-color: #f5f8fa;
+	text-align: center;
+    padding: 12px 0;
+}
+
+.latest-dweet:hover{
+    background-color: #e5e8ea;
+}
+
+.dweet{
+	background-color: white;
+    padding: 20px 0px 20px 85px;
+    min-height: 90px;
+    position: relative;
+    border-bottom: 1px solid #eee;
+}
+
+a.dweet-link:hover {
+    text-decoration: none;
+}
+
+a.dweet-link {
+    color: black;
+}
+
+.dweet:hover {
+    background-color: #efefef;
+}
+
+.dweet-profile-picture{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+    left: 26px;
+    top: 23px;
+}
+
+.dweet-meta{
+	font-size: 13px;
+}
+
+.dweet-name{
+	font-weight: bold;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
